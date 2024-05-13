@@ -4,7 +4,7 @@ const cors = require("cors");
 const axios = require("axios");
 const path = require("path"); // Add this line
 
-const apiKey = "518713121248ec0d62252e3d98096735";
+const apiKey = "";
 const app = express();
 
 app.use(bodyParser.urlencoded({ extended: true }));
